@@ -1,0 +1,44 @@
+body {
+    width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Helvetica", "Lucida Grande", sans-serif;
+    background-color:grey;
+}
+
+h1 {
+    text-align: center;
+}
+
+figure {
+    margin: 30px;
+	padding: 15px;
+		
+	text-align: center;
+		
+	background-color: rgb(15, 15, 15);
+	border: 1px solid rgb(14, 228, 67);
+}
+
+li a {
+    color: #1A5275;
+}
+
+div {
+    text-align: center;
+}
+
+div a {
+    display: inline-block;
+    margin: 0.1%;
+}
+
+div img {
+    width: 100px;
+    height: 70px;
+}
+
+img {
+    width: 240px;
+    height: 240px;
+}

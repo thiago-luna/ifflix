@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+img {
+    width: 240px;
+    height: 240px;
+}
+video  {
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+    width: 740px;
+    height: 460px;
+}
+
+div {
+    text-align: center;
+}
+div a img {
+    
+}
+
+div a {
+    display: inline-block;
+    margin: 0.1%;
+}
+
+div img {
+    width: 100px;
+    height: 70px;
+}
