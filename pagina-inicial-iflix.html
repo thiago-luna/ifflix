@@ -6,32 +6,39 @@
 	<title>IFlix</title>
 	<link href="img/IFlixicon.ico" rel="icon">
 	<link href="css/pg-inicial-iflix.css" rel="stylesheet">
+	<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500, 600,700,&display=block">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/cabecalho.css">
+	<link	rel="stylesheet" href="css/rodape.css">
+	<link	rel="stylesheet" href="css/form-newsletter.css">
+
 </head>
 
 <body>
 
-	<header>
-		<img id="Topo" src="img/logo.png">
+	<header class="cabecalho">
+		<img class="cabecalho__logo" id="Topo" src="img/logo.png">
 
 		<nav>
-			<ul class="menu">
-				<li>Categorias</li>
-				<ul class="sub-menu">
-					<li><a href="Categorias/ação.html">Ação</a></li>
-					<li><a href="Categorias/Fantasi.html">Fantasia</a></li>
-					<li><a href="Categorias/Comédia.html">Comédia</a></li>
-					<li><a href="Categorias/terror.html">Terror</a></li>
+			<ul class="cabecalho_menu">
+				<li class="cabecalho__item-menu">Categorias</li>
+				<ul class="cabecalho__item-menu">
+					<li class="cabecalho__item-menu"><a href="Categorias/ação.html">Ação</a></li>
+					<li class="cabecalho__item-menu"><a href="Categorias/Fantasi.html">Fantasia</a></li>
+					<li class="cabecalho__item-menu"><a href="Categorias/Comédia.html">Comédia</a></li>
+					<li class="cabecalho__item-menu"><a href="Categorias/terror.html">Terror</a></li>
 				</ul>
-				<li><a href="#Filmes">Filmes</a></li>
-				<li><a href="#Séries">Series</a></li>
-				<li><a href="#Animes">Animes</a></li>
-				<li><a href="contato.html">Contato</a></li>
+				<li class="cabecalho__item-menu"><a href="#Filmes">Filmes</a></li>
+				<li class="cabecalho__item-menu"><a href="#Séries">Series</a></li>
+				<li class="cabecalho__item-menu"><a href="#Animes">Animes</a></li>
+				<li class="cabecalho__item-menu"><a href="contato.html">Contato</a></li>
 			</ul>
 		</nav>
 
 		<div>
-			<input type="text" id="txtBusca" placeholder="Buscar..." />
-			<button id="btnBusca">Buscar</button>
+			<input class="" type="text" id="txtBusca" placeholder="Buscar..." />
+			<button class="" id="btnBusca">Buscar</button>
 		</div>
 	</header>
 
@@ -200,8 +207,9 @@
 			</a>
 		</div>
 	</main>
-	<footer>
-		<p>Todos os direitos reservados IFflix © 2023</p>
+	<footer class="rodape">
+			<p>Todos os direitos reservados IFflix © 2023</p>
+		</div>
 	</footer>
 </body>
 
