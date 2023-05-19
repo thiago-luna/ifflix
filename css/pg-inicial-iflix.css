@@ -1,9 +1,430 @@
+/*reset*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
 body {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: "Helvetica", "Lucida Grande", sans-serif;
-    background-color:rgba(4, 79, 88, 0.952);
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e4255;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/*----------------------------Fim reset-----------------------------------*/
+
+/*----------------------------Cabeçalho----------------------------------*/
+
+.cabecalho {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+    color: #fff;
+    background-color: grey;
+}
+
+/*Caixa de busca*/
+
+#divBusca {
+    background-color: #E0EEEE;
+    border: solid 2px #5F9EA0;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 32px;
+    border-radius: 0 7px 7px 0;
+    width: 102px;
+    font-weight: bold;
+    background: #5F9EA0;
+}
+
+.cabecalho__logo {
+    padding: 1.5em 0;
+    width: 14.5em;
+}
+
+/*Menu*/
+
+.menu {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.li .dropbtn {
+    float: left;
+}
+
+.li a,
+.dropbtn {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.li .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*------------------------------rodapé---------------------------*/
+
+.rodape {
+    font-size: 0.4em;
+}
+
+.rodape p{
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    .cabecalho {
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .cabecalho__logo {
+        padding: 2.5em 0;
+
+    }
+
+    .menu-principal {
+        background-color: transparent;
+    }
+
+    .rodape {
+        font-size: 1em;
+    }
+    
+}
+
+
+@media (min-width: 770px) {
+    .cabecalho {
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    nav li {
+        display: block;
+    }
+
+    .cabecalho__logo {
+        width: 160px;
+        height: 160px;
+    }
+
+    .menu-principal {
+        margin-left: 1.42em;
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+
+    .menu-principal a {
+        padding: 1.8em 3.5em;
+    }
+
+    .rodape {
+        font-size: 0.7em;
+    }
+    
+}
+
+@media (min-width: 1066px) {
+    .cabecalho {
+        font-size: 1.0rem;
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    .li a,
+    .dropbtn {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 5px 5px;
+        text-decoration: none;
+    }
+
+    .rodape {
+        font-size: 1.2em;
+    }
+    
+
+}
+
+@media (min-width: 2000px) {
+    .cabecalho {
+        font-size: 1.5rem;
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    nav li {
+        display: inline-block;
+        
+    }
+
+    .li a,
+    .dropbtn {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+
+    .rodape {
+        font-size: 2em;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    background-color: rgba(4, 79, 88, 0.952);
 
 }
 
@@ -13,8 +434,8 @@ h1 {
 }
 
 h2 {
-	background-color: green;
-	color: red;
+    background-color: green;
+    color: red;
 }
 
 p {
@@ -22,15 +443,15 @@ p {
 }
 
 li {
-	margin: 0 10px;
-	text-align: center;
+    margin: 0 10px;
+    text-align: center;
 }
 
 img {
-	width: 150px;
-	height: 225px;
-	object-fit: cover;
-	cursor: pointer;
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    cursor: pointer;
 }
 
 div {
