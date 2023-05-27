@@ -141,6 +141,18 @@ a {
 
 /*----------------------------Fim reset-----------------------------------*/
 
+/*----------------------------Body---------------------------------------*/
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    background-color: black;
+}
+
+/*----------------------------fim Body---------------------------------------*/
+
 /*----------------------------Cabeçalho----------------------------------*/
 
 .cabecalho {
@@ -150,7 +162,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.23em;
     color: #fff;
-    background-color: grey;
+    background-image: url("../img/fundo2.jpg");
 }
 
 /*Caixa de busca*/
@@ -202,7 +214,7 @@ a {
 .li a,
 .dropbtn {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
@@ -214,7 +226,7 @@ nav li {
 
 .li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: yellow;
 }
 
 .li .dropdown {
@@ -246,6 +258,57 @@ nav li {
     display: block;
 }
 
+/*----------------principal-----------------------*/
+
+.principal h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    padding: 10px;
+    color: red;
+
+}
+
+.principal p {
+    color: white;
+}
+
+.principal li {
+    max-height: 400px;
+    overflow-y: auto;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.principal ul{
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.principal ul li {
+    display: inline-block;
+}
+
+.principal img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.principal div {
+    text-align: center;
+}
+
+
+.principal div img {
+    width: 50px;
+    height: 50px;
+}
+
+/*----------------Fim principal-----------------------------------*/
+
 /*------------------------------rodapé---------------------------*/
 
 .rodape {
@@ -254,19 +317,14 @@ nav li {
 
 .rodape p {
     text-align: center;
+    color: white;
 }
 
 
-/*---------------Principal------------------------------*/
+/*---------------Principal-------------------------------------*/
 
-.principal{
-}
-
-.principal h2 {}
-
-.principal li {
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
-    overflow-y: auto;
+.principal {
+    background-image: url("../img/fundo1.jpg");
 }
 
 @media (min-width: 640px) {
@@ -345,7 +403,6 @@ nav li {
     .li a,
     .dropbtn {
         display: block;
-        color: black;
         text-align: center;
         padding: 5px 5px;
         text-decoration: none;
@@ -376,7 +433,6 @@ nav li {
     .li a,
     .dropbtn {
         display: block;
-        color: black;
         text-align: center;
         padding: 10px 10px;
         text-decoration: none;
@@ -385,97 +441,4 @@ nav li {
     .rodape {
         font-size: 2em;
     }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Helvetica", "Lucida Grande", sans-serif;
-    background-color: rgba(4, 79, 88, 0.952);
-
-}
-
-h1 {
-    background-color: green;
-    color: red;
-}
-
-h2 {
-    background-color: green;
-    color: red;
-}
-
-p {
-    color: White;
-}
-
-li {
-
-    max-height: 400px; /* Ajuste a altura máxima conforme necessário */
-    overflow-y: auto;
-    margin: 0 10px;
-    text-align: center;
-}
-
-img {
-    width: 150px;
-    height: 225px;
-    object-fit: cover;
-    cursor: pointer;
-}
-
-div {
-    text-align: center;
-}
-
-
-div img {
-    width: 50px;
-    height: 50px;
 }
