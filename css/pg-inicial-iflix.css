@@ -143,14 +143,14 @@ a {
 
 /*----------------------------Fim reset-----------------------------------*/
 
+
+
 /*----------------------------Body---------------------------------------*/
 
 body {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Helvetica", "Lucida Grande", sans-serif;
     background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*----------------------------fim Body---------------------------------------*/
@@ -162,7 +162,7 @@ body {
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.23em;
+    letter-spacing: 0.25em;
     color: #fff;
     background-image: url("../img/fundo7.gif");
 }
@@ -195,11 +195,6 @@ body {
     width: 102px;
     font-weight: bold;
     background: #5F9EA0;
-}
-
-.cabecalho__logo {
-    padding: 1.5em 0;
-    width: 14.5em;
 }
 
 /*Menu*/
@@ -261,6 +256,9 @@ nav li {
 }
 
 /*----------------principal-----------------------*/
+.principal {
+    background-image: url("../img/fundo7.gif");
+}
 
 .principal h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -269,7 +267,6 @@ nav li {
     text-align: left;
     padding: 10px;
     color: red;
-
 }
 
 .principal p {
@@ -303,7 +300,6 @@ nav li {
     text-align: center;
 }
 
-
 .principal div img {
     width: 50px;
     height: 50px;
@@ -324,11 +320,6 @@ nav li {
 
 
 /*---------------Principal - imagem de fundo-------------------------------------*/
-
-.principal {
-    background-image: url("../img/fundo7.gif");
-}
-
 @media (min-width: 640px) {
     .cabecalho {
         padding: 0 5%;
@@ -356,7 +347,7 @@ nav li {
 
 @media (min-width: 770px) {
     .cabecalho {
-        padding: 0 5%;
+        padding: 0 6%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -420,11 +411,10 @@ nav li {
 @media (min-width: 2000px) {
     .cabecalho {
         font-size: 1.5rem;
-        padding: 0 5%;
+        padding: 0 9%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     nav li {
