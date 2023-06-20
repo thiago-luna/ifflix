@@ -131,7 +131,7 @@ table {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #2e4255;
+    color: #ffffff;
 }
 
 a {
@@ -146,7 +146,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "Helvetica", "Lucida Grande", sans-serif;
-    background-color:grey;
+    background-image: url("../img/fundo8.gif");
 }
 
 h1 {
@@ -159,12 +159,12 @@ figure {
 		
 	text-align: center;
 		
-	background-color: rgb(15, 15, 15);
-	border: 1px solid rgb(14, 228, 67);
+	background-image: url("../img/fundo7.gif");
+	border: 1px solid rgb(255, 255, 255);
 }
 
 li a {
-    color: #1A5275;
+    color: #ffffff;
 }
 
 div {

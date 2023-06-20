@@ -139,6 +139,8 @@ a {
     text-decoration: inherit;
 }
 
+/*Serve para padronizar todos as tag em diferentes navegadores*/
+
 /*----------------------------Fim reset-----------------------------------*/
 
 /*----------------------------Body---------------------------------------*/
@@ -162,7 +164,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.23em;
     color: #fff;
-    background-image: url("../img/fundo2.jpg");
+    background-image: url("../img/fundo7.gif");
 }
 
 /*Caixa de busca*/
@@ -321,10 +323,10 @@ nav li {
 }
 
 
-/*---------------Principal-------------------------------------*/
+/*---------------Principal - imagem de fundo-------------------------------------*/
 
 .principal {
-    background-image: url("../img/fundo1.jpg");
+    background-image: url("../img/fundo7.gif");
 }
 
 @media (min-width: 640px) {

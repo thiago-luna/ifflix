@@ -131,7 +131,7 @@ table {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #2e4255;
+    color: #ffffff;
 }
 
 a {
@@ -143,30 +143,37 @@ a {
 
 body {
     width: 100%;
-    background-color: #f0f0f0;
-	
+    background-image: url("../img/fundo7.gif");
+
 }
 
-      .container {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10%;
+    background-image: url("../img/fundo7.gif");
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 1.3em;
+    
+  
+}
 
-      .contact-info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 30px;
-      }
 
-      .contact-info div {
-        width: 50%;
-        text-align: center;
-        margin-bottom: 30px;
-      }
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact-info div {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
 
 
 h1 {
@@ -182,4 +189,10 @@ div {
 div img {
     width: 50px;
     height: 50px;
+}
+
+.rodape p {
+   text-align: center;
+   font-size: 1.3em;
+
 }
